@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Search, MapPin, Briefcase, Clock, ExternalLink } from "lucide-react";
+import { Search, MapPin, Briefcase, Clock, ExternalLink, CheckCircle } from "lucide-react";
 
 const JobSearchForm = () => {
   const [searchParams, setSearchParams] = useState({
